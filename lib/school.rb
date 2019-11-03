@@ -24,6 +24,10 @@ def grade(num)
     roster[num]
 end 
 end 
+
+def sort(roster)
+  roster[grade].sort 
+end 
   
 
 end 
