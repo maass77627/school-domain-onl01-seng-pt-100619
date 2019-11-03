@@ -12,7 +12,7 @@ def roster
 end 
 
 def add_student(name, grade) 
-  if roster.has_key? 
+  if roster.has_key?(grade) 
 end 
   
 
