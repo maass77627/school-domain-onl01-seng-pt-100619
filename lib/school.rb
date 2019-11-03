@@ -11,7 +11,7 @@ def roster
   @roster
 end 
 
-def initialize(add_student) 
+def add_student(name, grade) 
   @add_student = add_student
 end 
   
