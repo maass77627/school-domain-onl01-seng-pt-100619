@@ -19,9 +19,10 @@ def add_student(name, grade)
   end 
 end 
 
-def grade 
-
-
+def grade(num) 
+  if roster.has_key?(num)
+    roster[num]
+end 
 end 
   
 
