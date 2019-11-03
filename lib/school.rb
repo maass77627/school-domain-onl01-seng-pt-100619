@@ -29,6 +29,7 @@ def sort(roster)
   roster.each do |grade, student|
     student.sort
 end 
+end 
   
 
 end 
