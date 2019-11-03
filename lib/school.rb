@@ -19,14 +19,15 @@ def add_student(name, grade)
   end 
 end 
 
-def grade(num) 
-  if roster.has_key?(num)
-    roster[num]
+def grades(grade) 
+  if roster.has_key?(grade)
+    roster[grade]
 end 
 end 
 
 def sort(roster)
-  roster[grade].sort 
+  roster.each do |grade, student|
+    student.sort
 end 
   
 
