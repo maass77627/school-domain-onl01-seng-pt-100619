@@ -25,7 +25,7 @@ def grade(num)
 end 
 end 
 
-def sort(roster)
+def sort
   roster.each do |grade, student|
     student.sort!
 end 
